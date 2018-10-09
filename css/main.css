@@ -1,0 +1,12 @@
+html {
+  font-family: 'Fredoka One', cursive;
+}
+
+.title {
+  color: #990073;
+}
+
+.caption {
+  color: #c09;
+  max-width: 19em;
+}
