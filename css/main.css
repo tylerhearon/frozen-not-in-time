@@ -1,7 +1,7 @@
 html {
-  font-family: 'Fredoka One', cursive;
+  font-family: "Fredoka One", sans-serif;
   background-image: repeating-linear-gradient(-45deg, #d4fdff, #d4fdff 2%, #c9fcff 2%, #c9fcff 4%);
-  }
+}
 
 .title {
   color: #990073;
@@ -15,34 +15,33 @@ html {
 .btn-ghost {
   color: #c09;
   border: #c09 2px solid;
-
 }
 
-.icecreams{
+.icecreams {
   position: relative;
 }
 
 .cone {
-  transform: translate(0,-30em);
+  transform: translate(0, -30em);
   z-index: 7;
 }
 
 .mint {
-  transform: translate(0,-24em);
+  transform: translate(0, -24em);
   z-index: 6;
 }
 
 .chocolate {
-  transform: translate(0,-16.7em);
+  transform: translate(0, -16.7em);
   z-index: 8;
 }
 
 .vanilla {
-  transform: translate(0,-9em);
+  transform: translate(0, -9em);
   z-index: 9;
 }
 
 .cherry {
-  transform: translate(0,-1.2em);
+  transform: translate(0, -1.2em);
   z-index: 10;
 }
