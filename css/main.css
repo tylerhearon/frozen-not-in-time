@@ -62,3 +62,17 @@ img {
   bottom: 270px;
   z-index: 10;
 }
+
+h1 {
+  color: #990073;
+  transform-origin: left center;
+}
+
+p, .btn {
+  color: #c09;
+}
+
+p {
+  max-width: 20em;
+  transform-origin: left center;
+}
