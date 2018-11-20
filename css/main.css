@@ -93,13 +93,39 @@ p {
 
   @keyframes cone {
 
-  0% {
-    transform: translateX(0);
-    transform: translateY(-500px);
+    0% {
+      transform: translateX(0);
+      transform: translateY(-500px);
+    }
+
+    100% {
+      transform: translateY(0);
+    }
+
   }
 
-  100% {
-    transform: translateY(0);
+  @keyframes mint {
+
+    0% {
+      transform: translateX(0);
+      transform: translateY(-500px);
+    }
+
+    100% {
+      transform: translateY(0);
+    }
+
   }
 
-}
+  @keyframes choco {
+
+    0% {
+      transform: translateX(0);
+      transform: translateY(-500px);
+    }
+
+    100% {
+      transform: translateY(0);
+    }
+
+  }
