@@ -129,3 +129,29 @@ p {
     }
 
   }
+
+  @keyframes vanilla {
+
+  0% {
+    transform: translateX(0);
+    transform: translateY(-500px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+
+}
+
+@keyframes cherry {
+
+  0% {
+    transform: translateX(0);
+    transform: translateY(-500px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+
+}
