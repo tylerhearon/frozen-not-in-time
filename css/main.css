@@ -163,3 +163,23 @@ p {
   }
 
 }
+
+@keyframes intro {
+
+  0% {
+    filter: opacity(0);
+  }
+
+  50% {
+    filter: opacity(.01);
+  }
+
+  75% {
+    filter: opacity(.5);
+  }
+
+  100% {
+    filter: opacity(1);
+  }
+
+}
