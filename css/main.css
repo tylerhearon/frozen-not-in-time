@@ -76,3 +76,17 @@ p {
   max-width: 20em;
   transform-origin: left center;
 }
+
+.intro {
+  animation: intro 1s linear;
+  text-shadow: 1px 1px 1px;
+}
+
+.btn-ghost {
+  border-color: #990073;
+}
+
+.btn-ghost:hover {
+  border-color: #c09;
+  color: #c09;
+  opacity: .5;
