@@ -63,6 +63,14 @@ img {
   z-index: 10;
 }
 
+.header {
+  transform: rotate(-10deg);
+}
+
+.content {
+  transform: rotate(-10deg);
+}
+
 h1 {
   color: #990073;
   transform-origin: left center;
