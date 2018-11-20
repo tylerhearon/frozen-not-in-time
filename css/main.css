@@ -36,31 +36,31 @@ img {
 .cone {
   right: 60px;
   bottom: -60px;
-  z-index: 7;
+  animation: cone .2s linear forwards;
 }
 
 .mint {
   right: 60px;
   bottom: 45px;
-  z-index: 6;
+  animation: cone .3s linear forwards;
 }
 
 .chocolate {
   right: 50px;
   bottom: 130px;
-  z-index: 8;
+  animation: cone .4s linear forwards;
 }
 
 .vanilla {
   right: 60px;
   bottom: 200px;
-  z-index: 9;
+  animation: cone .5s linear forwards;
 }
 
 .cherry {
   right: 60px;
   bottom: 270px;
-  z-index: 10;
+  animation: cone .6s linear forwards;
 }
 
 .header {
@@ -98,6 +98,7 @@ p {
   border-color: #c09;
   color: #c09;
   opacity: .5;
+}
 
   @keyframes cone {
 
