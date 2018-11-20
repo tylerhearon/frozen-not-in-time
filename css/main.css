@@ -90,56 +90,46 @@ p {
   text-shadow: 1px 1px 1px;
 }
 
-.btn-ghost {
-  border-color: #990073;
-}
+@keyframes cone {
 
-.btn-ghost:hover {
-  border-color: #c09;
-  color: #c09;
-  opacity: .5;
-}
-
-  @keyframes cone {
-
-    0% {
-      transform: translateX(0);
-      transform: translateY(-500px);
-    }
-
-    100% {
-      transform: translateY(0);
-    }
-
-}
-
-  @keyframes mint {
-
-    0% {
-      transform: translateX(0);
-      transform: translateY(-500px);
-    }
-
-    100% {
-      transform: translateY(0);
-    }
-
+  0% {
+    transform: translateX(0);
+    transform: translateY(-500px);
   }
 
-  @keyframes chocolate {
-
-    0% {
-      transform: translateX(0);
-      transform: translateY(-500px);
-    }
-
-    100% {
-      transform: translateY(0);
-    }
-
+  100% {
+    transform: translateY(0);
   }
 
-  @keyframes vanilla {
+}
+
+@keyframes mint {
+
+  0% {
+    transform: translateX(0);
+    transform: translateY(-500px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+
+}
+
+@keyframes chocolate {
+
+  0% {
+    transform: translateX(0);
+    transform: translateY(-500px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+
+}
+
+@keyframes vanilla {
 
   0% {
     transform: translateX(0);
