@@ -176,6 +176,7 @@ p {
 
   75% {
     filter: opacity(.5);
+    filter: blur(.3px);
   }
 
   100% {
